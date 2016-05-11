@@ -1,0 +1,39 @@
+<template name="search">
+	<img class="img_logout" src="/logout.svg">
+    <h1>Search User: <hr> {{> EasySearch.Input index=usersIndex attributes=atts}}</h1>
+   
+    {{#EasySearch.IfInputEmpty index=usersIndex}}<!--  als het easyseach field leeg is doe dan niks -->
+        {{else}}
+            {{#if usersIndex}}
+            <ul class="search_chats">
+               {{#EasySearch.Each index=usersIndex}}
+               
+				   <ul class="ul_search">
+				   		<li class="li_search"><strong>{{Skills}}</strong></li>
+				   		<li class="li_search">{{Location}}</li>
+					   	<li class="li_search">{{Name}}</li>
+					</ul>	
+					<hr class="hr_search">
+                {{/EasySearch.Each}}
+              </ul>
+            {{/if}}
+    {{/EasySearch.IfInputEmpty}}
+</template>
+
+
+<!--     {{> EasySearch.Input index=usersIndex }}
+
+    <ul>
+        {{#EasySearch.Each index=usersIndex }}
+			 <div class="result">
+				<div class="image">
+				</div>
+						<ul>
+							<li>{{Name}}</li>
+							<li>{{Location}}</li>
+						</ul>	
+							<h4>{{Skills}}</h4>
+			</div>
+
+        {{/EasySearch.Each}}
+    </ul> -->

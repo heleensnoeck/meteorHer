@@ -1,0 +1,10 @@
+<template name="chat">
+   <main>
+   {{> search}}
+		<section class="addUser">
+			{{#each user}} <!-- haalt publish user functie op -->
+				{{> addUser}} <!-- haalt template add user op -->
+			{{/each}}	
+		</section>
+	</main>
+</template>

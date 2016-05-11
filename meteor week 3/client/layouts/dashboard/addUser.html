@@ -1,0 +1,19 @@
+<template name="addUser">
+	<article class="newUser">
+		
+	<div class="container_post">	
+		<div class="image"></div>
+			<ul>
+				<li>{{Skills}}</li><br>
+				<li class="li_small">{{Name}}</li>
+				<li class="li_small">{{Location}}</li>
+			</ul>	
+		</div>	
+		<hr class="chat_border">
+		<p>
+			{{#each userProfile}}
+				<span class="userProfile">{{Name}} + {{location}}</span>
+			{{/each}}
+		</p>
+	</article>
+</template>

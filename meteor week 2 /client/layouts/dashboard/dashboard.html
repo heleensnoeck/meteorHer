@@ -1,0 +1,13 @@
+<template name="dashboard">
+	 <main>
+		
+			<h1>Dashboard</h1>
+			<button class="logout"><h1>log out</h1></button>
+			{{> NewUser}}	<!-- hier haalt hij het template newUser op -->
+			<section class="addUser">
+				{{#each user}}
+					{{> addUser}}
+				{{/each}}	
+			</section>
+	</main>
+</template>

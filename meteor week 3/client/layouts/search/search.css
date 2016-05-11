@@ -1,0 +1,35 @@
+.search_chats {
+	border: 1px solid black;
+	margin-left: 0em;
+	margin-top: -1.7em;
+}
+
+.ul_search {
+	margin: 0;
+}
+
+.ul_search:hover {
+	color: #FEBC06;
+	cursor: pointer;
+}
+
+
+.li_search {
+	display: inline;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin: 0;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
+
+.li_search:first-of-type {
+	text-transform: uppercase;
+}
+
+.hr_search {
+	width: 18em;
+	margin-left: 0;
+}

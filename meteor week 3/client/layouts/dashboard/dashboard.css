@@ -1,0 +1,15 @@
+.img_dashboard {
+	margin-top: 1em;
+	transform: translateX(calc(100% - 30px));
+}
+
+.img_logout {
+	margin-top: 1em;
+	transform: translateX(calc(100% - -390px));
+	position: absolute;
+	top: 40px;
+}
+
+.img_logout:hover {
+	cursor: pointer;
+}

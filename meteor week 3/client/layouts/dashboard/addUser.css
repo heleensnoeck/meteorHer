@@ -1,0 +1,19 @@
+/*addUser.html css*/
+.chat_border {
+	width: 20em;
+	border: 1px solid black;
+	border-radius: 1em;
+	margin-left: 85px;
+	margin-top: 1em;
+}
+
+.li_small {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.container_post:hover {
+	color: #FEBC06;
+	cursor: pointer;
+}

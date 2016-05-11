@@ -1,0 +1,31 @@
+.button {
+	display: block;
+	width: 100%;
+	border-radius: 6px;
+	font-size: 1em;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 2em;
+	background-color: black;
+	border: 1px solid black;
+	padding: 0.7em;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	width: 100%;
+	padding: 1em;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	/* text-transform: uppercase; */
+	border: solid 1px black;
+	background: #f3f3f3;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FBFBFB inset;
+}

@@ -1,0 +1,28 @@
+.button {
+	display: block;
+	width: 100%;
+	border-radius: 6px;
+	font-size: 1em;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 2em;
+	background-color: #FF9A00;
+	border: 1px solid #FF9A00;
+	padding: 0.7em;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	margin-top: 2em; 
+	margin-bottom: 2em;
+	width: 100%;
+	padding: 1em;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	text-transform: uppercase;
+	border: solid 1px #f3f3f3;
+	background: #f3f3f3;
+	margin-bottom: 10px;
+}
